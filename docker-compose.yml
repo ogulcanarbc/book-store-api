@@ -1,0 +1,30 @@
+version: '2'
+
+services:
+    db:
+      image: mysql:5.6
+      environment:
+                - MYSQL_DATABASE=book_store
+                - MYSQL_USER=ogulcan
+                - MYSQL_PASSWORD=1234ogul
+                - MYSQL_ROOT_PASSWORD=1234ogul
+      volumes:
+            - ./db:/Users/sahabt/Documents/workspace/book-store-api/data
+
+      ports:
+            - "3306:3306"
+    phpmyadmin:
+     image: phpmyadmin/phpmyadmin
+     environment:
+            PMA_ARBITRARY: 1
+            MYSQL_USER: ogulcan
+            MYSQL_PASSWORD: 1234ogul
+            MYSQL_ROOT_PASSWORD: 1234ogul
+     ports:
+            - "8000:80"
+     links:
+            # for mysql container
+            - "db:db"
+volumes:
+    db:
+        driver: "local"
