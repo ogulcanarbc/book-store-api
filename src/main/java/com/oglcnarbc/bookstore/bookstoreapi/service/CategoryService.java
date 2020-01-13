@@ -1,7 +1,7 @@
 package com.oglcnarbc.bookstore.bookstoreapi.service;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Category;
-import com.oglcnarbc.bookstore.bookstoreapi.Repository.CategoryRepository;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Category;
+import com.oglcnarbc.bookstore.bookstoreapi.repository.CategoryRepository;
 import com.oglcnarbc.bookstore.bookstoreapi.common.exception.ConflictException;
 import com.oglcnarbc.bookstore.bookstoreapi.common.exception.InvalidRequestException;
 import com.oglcnarbc.bookstore.bookstoreapi.common.exception.NoContentException;
@@ -17,7 +17,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.util.CollectionUtils;
 import org.springframework.util.ObjectUtils;
 
 import java.util.List;

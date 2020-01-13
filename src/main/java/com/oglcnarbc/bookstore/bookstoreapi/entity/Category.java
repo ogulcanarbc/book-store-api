@@ -1,6 +1,5 @@
-package com.oglcnarbc.bookstore.bookstoreapi.Entity;
+package com.oglcnarbc.bookstore.bookstoreapi.entity;
 
-import com.oglcnarbc.bookstore.bookstoreapi.model.category.CategoryMeta;
 import lombok.*;
 
 import javax.persistence.*;

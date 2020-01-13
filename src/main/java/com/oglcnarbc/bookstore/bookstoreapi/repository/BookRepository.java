@@ -1,7 +1,7 @@
-package com.oglcnarbc.bookstore.bookstoreapi.Repository;
+package com.oglcnarbc.bookstore.bookstoreapi.repository;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Book;
-import com.oglcnarbc.bookstore.bookstoreapi.Repository.CustomRepoExample.BookDao;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Book;
+import com.oglcnarbc.bookstore.bookstoreapi.repository.CustomRepoExample.BookDao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 

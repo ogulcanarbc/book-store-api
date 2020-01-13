@@ -1,6 +1,6 @@
 package com.oglcnarbc.bookstore.bookstoreapi.mapper.response;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Category;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Category;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.CategoryMeta;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.CategoryResource;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.response.CreateCategoryResponse;

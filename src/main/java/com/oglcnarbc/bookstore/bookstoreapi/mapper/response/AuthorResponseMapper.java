@@ -1,7 +1,7 @@
 package com.oglcnarbc.bookstore.bookstoreapi.mapper.response;
 
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Author;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Author;
 import com.oglcnarbc.bookstore.bookstoreapi.model.author.AuthorMeta;
 import com.oglcnarbc.bookstore.bookstoreapi.model.author.response.CreateAuthorResponse;
 

@@ -1,6 +1,6 @@
-package com.oglcnarbc.bookstore.bookstoreapi.Repository;
+package com.oglcnarbc.bookstore.bookstoreapi.repository;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Author;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,11 +1,11 @@
 package com.oglcnarbc.bookstore.bookstoreapi.service;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Author;
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Book;
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Category;
-import com.oglcnarbc.bookstore.bookstoreapi.Repository.AuthorRepository;
-import com.oglcnarbc.bookstore.bookstoreapi.Repository.BookRepository;
-import com.oglcnarbc.bookstore.bookstoreapi.Repository.CategoryRepository;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Author;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Book;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Category;
+import com.oglcnarbc.bookstore.bookstoreapi.repository.AuthorRepository;
+import com.oglcnarbc.bookstore.bookstoreapi.repository.BookRepository;
+import com.oglcnarbc.bookstore.bookstoreapi.repository.CategoryRepository;
 import com.oglcnarbc.bookstore.bookstoreapi.common.exception.InvalidRequestException;
 import com.oglcnarbc.bookstore.bookstoreapi.common.exception.UnProcessableEntitiyException;
 import com.oglcnarbc.bookstore.bookstoreapi.mapper.response.BookResponseMapper;

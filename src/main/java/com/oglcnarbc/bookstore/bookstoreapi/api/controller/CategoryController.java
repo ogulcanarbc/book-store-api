@@ -1,6 +1,5 @@
 package com.oglcnarbc.bookstore.bookstoreapi.api.controller;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Category;
 import com.oglcnarbc.bookstore.bookstoreapi.api.BookStoreApi;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.CategoryResource;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.request.CreateCategoryRequest;

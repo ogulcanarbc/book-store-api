@@ -1,4 +1,4 @@
-package com.oglcnarbc.bookstore.bookstoreapi.Entity;
+package com.oglcnarbc.bookstore.bookstoreapi.entity;
 
 import lombok.*;
 

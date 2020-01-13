@@ -1,6 +1,6 @@
 package com.oglcnarbc.bookstore.bookstoreapi.mapper.response;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Book;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Book;
 import com.oglcnarbc.bookstore.bookstoreapi.model.book.BookResource;
 import com.oglcnarbc.bookstore.bookstoreapi.model.book.response.CreateBookResponse;
 import lombok.RequiredArgsConstructor;

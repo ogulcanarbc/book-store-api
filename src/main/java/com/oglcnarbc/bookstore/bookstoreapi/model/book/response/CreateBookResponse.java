@@ -1,7 +1,5 @@
 package com.oglcnarbc.bookstore.bookstoreapi.model.book.response;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Author;
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Category;
 import com.oglcnarbc.bookstore.bookstoreapi.model.author.AuthorMeta;
 import com.oglcnarbc.bookstore.bookstoreapi.model.category.CategoryMeta;
 import lombok.AllArgsConstructor;

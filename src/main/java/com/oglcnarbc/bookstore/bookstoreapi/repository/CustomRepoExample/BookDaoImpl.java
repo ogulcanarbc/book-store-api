@@ -1,6 +1,6 @@
-package com.oglcnarbc.bookstore.bookstoreapi.Repository.CustomRepoExample;
+package com.oglcnarbc.bookstore.bookstoreapi.repository.CustomRepoExample;
 
-import com.oglcnarbc.bookstore.bookstoreapi.Entity.Book;
+import com.oglcnarbc.bookstore.bookstoreapi.entity.Book;
 
 import java.util.List;
 
