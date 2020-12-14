@@ -8,9 +8,6 @@ services:
                 - MYSQL_USER=ogulcan
                 - MYSQL_PASSWORD=
                 - MYSQL_ROOT_PASSWORD=
-      volumes:
-            - ./db:/Users/sahabt/Documents/workspace/book-store-api/data
-
       ports:
             - "3306:3306"
     phpmyadmin:
